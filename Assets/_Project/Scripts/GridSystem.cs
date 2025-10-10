@@ -6,7 +6,7 @@ namespace _Project.Scripts
     
     public class GridSystem
     {
-        public int[,] Grid { get; private set; }
+        private int[,] Grid { get; set; }
         public event Action OnGridChanged;
 
         private GameState _gameState;
