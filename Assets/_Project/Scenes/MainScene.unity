@@ -703,6 +703,7 @@ GameObject:
   - component: {fileID: 438473667}
   - component: {fileID: 438473666}
   - component: {fileID: 438473665}
+  - component: {fileID: 438473668}
   m_Layer: 5
   m_Name: RestartButton
   m_TagString: Untagged
@@ -812,6 +813,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 438473663}
   m_CullTransparentMesh: 1
+--- !u!114 &438473668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 438473663}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61cec191aeb94a3784590df9faf46ec5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _button: {fileID: 438473665}
 --- !u!1 &458501360
 GameObject:
   m_ObjectHideFlags: 0
@@ -2594,8 +2608,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\u0415\u0449\u0435 \u0440\u0430\u0437\u043E\u043A"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2724,7 +2738,6 @@ MonoBehaviour:
   _oText: {fileID: 1661327332}
   _winMenu: {fileID: 822184950}
   _winMenuText: {fileID: 1550405285}
-  _restartButton: {fileID: 438473665}
 --- !u!114 &1451267817
 MonoBehaviour:
   m_ObjectHideFlags: 0

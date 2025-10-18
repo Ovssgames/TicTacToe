@@ -21,10 +21,8 @@ namespace _Project.Scripts
         [Header("Win Menu Settings")]
         [SerializeField] private GameObject _winMenu;
         [SerializeField] private TextMeshProUGUI _winMenuText;
-        [SerializeField] private Button _restartButton;
         
         private GameState _gameState;
-        
         
         [Inject]
         private void Init(GameState gameState)
